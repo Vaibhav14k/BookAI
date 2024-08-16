@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa";
 function Header() {
   return (
     <div>
-        <header className='flex  flex-wrap items-center justify-between h-24 bg--300  mx-auto  max-w-7xl	 ' >
+        <header className='flex text-white  flex-wrap items-center justify-between h-24 bg--300  mx-auto  max-w-7xl	 ' >
             <div className='flex logo gap-1' >
                 <FaCircle className='text-2xl  m-auto' />
                 <img src="logo.png" className='h-8 text-3xl' />

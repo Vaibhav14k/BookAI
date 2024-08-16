@@ -6,13 +6,13 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 function Step_container() {
   return (
-    <div  >
-        <div className='w-full text-center mt-20 text-xl font-semibold ' >
+    <div className='bg-#241535  py-1 ' >
+        <div className='w-full text-center mt-20 text-white text-2xl font-semibold ' >
             <h1>HOW IT WORKS</h1>
         </div>
-        <div className='flex mx-14 gap-10 flex-wrap bg-green-300 my-10 ' >
+        <div className='flex mx-14 gap-10 flex-wrap text-white my-10 ' >
             <div className='flex gap-4 items-center ' >
-                <FaMagic className='w-10 h-10 rounded-full ' />
+                <FaMagic className='w-10 h-10 rounded-full  ' />
                 <div className='' >
                     <h3>Choose Your Genre</h3>
                     <p>Select from a wide range of genres or create a custom blend.</p>
